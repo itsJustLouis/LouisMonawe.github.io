@@ -2,6 +2,9 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta name="description" content="Homepage">
+    <meta name="keywords" content="HTML, CSS, JavaScript">
+    <meta name="author" content="Louis Monawe">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio</title>
@@ -11,29 +14,35 @@
 
 </head>
 <body>
-    
-    <label for="logo" class = "logo">Louis Monawe</label>
    
-    <nav>
-       <input type="checkbox" id="check">
-        <label for="check" class = "main-button">
-            <img src="bar.png" class = "main-button"></label>
-              
+<main>
+    <nav>              
         <ul class="txt">
             <li><a href="index.html"  class=" active">Home</a></li>
-            <li><a href="blogs.html">Blogs</a></li>
-            <li><a href="design.html">Design</a></li>
-            <li><a href="essay.html">Essay</a></li>
-         <!--   <li><a href="portfolio.html">Portfolio</a></li> -->
-            <li><a href="profile.html">Profile</a></li>
+            <li class="blogBtn"><a href="blogs.html">Blogs</a></li>
+            <li class="designBtn"><a href="design.html">Design</a></li>
+            <li class="essayBtn"><a href="essay.html">Essay</a></li>
+            <li class="profileBtn"><a href="profile.html">Profile</a></li>
         </ul>
+            <a href="blogs.html"> <img src="blog.png" alt="Blogs page Icon" class="blogImage"> </a>
+            
+            <a href="design.html"> <img src="design.png" alt="Design Page Icon" class="designImage"> </a>
+
+            <a href="profile.html"> <img src="profile.png" alt="Profile page Icon" class="profileImage"> </a>
+            
+            <a href="essay.html"> <img src="essayImage.png" alt="Essay page Icon" class="essayImage"> </a>
     </nav>
+</main>
+
 
     <div class="name"> 
-        LOUIS MONAWE
-            <div class = "uni">WITS UNIVERSITY STUDENT</div>
+       <h1 class = "louis">LOUIS MONAWE</h1>
+            <h2 class = "uni">WITS UNIVERSITY STUDENT</h2>
     </div>
+
+
     <div class="img"><img src="me.png" alt="a picture of Louis Monawe" class="me"></div>
+
 
 </body>
 </html>

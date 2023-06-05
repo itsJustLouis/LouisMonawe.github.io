@@ -8,24 +8,27 @@ section.first{
     font-family:  Georgia, 'Times New Roman', Times, serif;
     padding: 20px;
     margin: 20px auto;
-    max-width: 800px;
+    max-width: 1000px;
 }
-.blog{
-    margin-bottom: 20px;
+
+.post{
+    margin-bottom: 20px; 
 }
 .week{
     text-align: center;
     color: rgb(179, 115, 93);
-    letter-spacing: 0.2rem;
+    letter-spacing: 0.3rem;
     font-size: 1.5rem;
     text-transform: uppercase;
     font-weight: 700;
 }
-.paragraph{
+.content{
     border-left: 5px solid #2370a5;
     padding-left: 5px;
+    line-height: 25px;
+    
 }
-h3{
+h2{
     text-align: center;
     font-size: 1.0rem;
     color:darksalmon;
@@ -38,5 +41,57 @@ hr{
 }
 p{
     color: #0e1d43;
-    font-weight: 600;
+    font-weight: 150;
+}
+a.back{
+    float: right;
+}
+.line{
+    display: inline-block;
+    
+}
+ul.line{
+    float: left;
+    
+}
+ul.line li{
+    display: inline-block;
+    
+    margin-right: 80px;
+    margin-top: 10px;
+}
+ul.line li a{
+    font-size: 18px;
+    color: rgb(0, 89, 255);
+    text-decoration: underline;
+    
+}
+
+
+/*TRYING./*/
+
+body{
+    padding: 30px;
+    margin: 0;  
+}
+
+.post{
+   font-family: "Poppins",sans-serif; 
+}
+.post p{
+    font-size: 16px;
+}
+.post button{
+    padding: 10px;
+    background-color: #ff4e02;
+    color: #ffffff;
+    border: none;
+    cursor: pointer;
+}
+.post:not(:last-child){
+    margin-bottom: 100px;
+
+}
+.hide{
+    display: none;
 }
